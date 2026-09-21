@@ -11,7 +11,9 @@ Repoet inneholder gruppens applikasjon og dokumentasjon av utvikling, testing og
 ## Prosjektoppsett
 
 - `_bmad/`: BMAD-rammeverk for planlegging, utvikling og kvalitetssikring.
-- `.claude/skills/`: ferdigheter som følger BMAD-oppsettet.
+- `.agents/skills/`: BMAD-ferdigheter for Codex.
+- `AGENTS.md`: prosjektregler for Codex og andre KI-verktøy.
+- `.claude/skills/`: BMAD-ferdigheter for Claude Code.
 - `.docs/planning-artifacts/`: produktbeskrivelse og prosjektplanlegging.
 - `.docs/implementation-artifacts/`: dokumentasjon av implementering og testing.
 
@@ -26,3 +28,13 @@ BMAD er konfigurert for Anteneh og prosjektet **Kitchen Prep**, med norsk som ar
 - [Prosjektregler](AGENTS.md).
 
 BMAD-ferdighetene finnes for både Codex (`.agents/skills/`) og Claude Code (`.claude/skills/`).
+
+## Kom i gang med Codex
+
+Åpne dette repoet som prosjekt i Codex. BMAD-ferdighetene ligger i `.agents/skills/`. Start med:
+
+```text
+Bruk bmad-help. Les productbrief.md og hjelp meg med neste steg for Kitchen Prep.
+```
+
+Se [oppstartsveiledningen](docs/bmad-setup.md) og [OpenAIs dokumentasjon om ferdigheter](https://developers.openai.com/codex/skills).
