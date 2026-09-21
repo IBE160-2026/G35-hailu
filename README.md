@@ -1,4 +1,4 @@
-# G35 — GRUPpe1
+# G35 — Kitchen Prep
 
 Gruppeprosjekt i **IBE160 Programmering med KI** ved Høgskolen i Molde, høsten 2026 (15 studiepoeng).
 
@@ -15,6 +15,14 @@ Repoet inneholder gruppens applikasjon og dokumentasjon av utvikling, testing og
 - `.docs/planning-artifacts/`: produktbeskrivelse og prosjektplanlegging.
 - `.docs/implementation-artifacts/`: dokumentasjon av implementering og testing.
 
-BMAD er konfigurert for Anteneh og prosjektet **GRUPpe1**, med norsk som arbeids- og dokumentspråk. Prosjektidé og produktbeskrivelse fylles inn når de er avklart.
+BMAD er konfigurert for Anteneh og prosjektet **Kitchen Prep**, med norsk som arbeids- og dokumentspråk. **Kitchen Prep er en autonom agent for daglig kjøkkenprep og varebestilling.** Agenten skal bruke meny, forventet behov og lagerstatus til å lage prep-planer og håndtere varebehov. Produktbriefen foreslår en første prototype med simulerte bestillinger.
 
-Grunnoppsettet er tilpasset fra [G98-fjellstad](https://github.com/IBE160-2026/G98-fjellstad).
+
+## Produktbrief og oppstart
+
+- [Produktbrief](productbrief.md): arbeidsutkast for Kitchen Prep; målgruppe og MVP er forslag.
+- [Produktbrief-mal](product-brief-template.md).
+- [BMAD – oppsett og oppstart](docs/bmad-setup.md).
+- [Prosjektregler](AGENTS.md).
+
+BMAD-ferdighetene finnes for både Codex (`.agents/skills/`) og Claude Code (`.claude/skills/`). Dokumentstrukturen er inspirert av [G10-andreassen-lundberg](https://github.com/IBE160-2026/G10-andreassen-lundberg) og tilpasset gruppe 35.

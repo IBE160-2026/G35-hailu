@@ -7,7 +7,7 @@ visual_tools: intermediate
 
 # Core Configuration Values
 user_name: Anteneh
-project_name: "GRUPpe1"
+project_name: "Kitchen Prep"
 communication_language: Norwegian
 document_output_language: Norwegian
 output_folder: "{project-root}/.docs"

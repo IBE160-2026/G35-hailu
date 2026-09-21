@@ -11,7 +11,7 @@
 # ─────────────────────────────────────────────────────────────────
 
 [core]
-project_name = "GRUPpe1"
+project_name = "Kitchen Prep"
 document_output_language = "Norwegian"
 output_folder = "{project-root}/.docs"
 
