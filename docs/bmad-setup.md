@@ -22,7 +22,7 @@ Ferdighetene er lagt inn i repoet; at verktøyet oppdager dem må kontrolleres i
 - `product-brief-template.md`: mal for en produktbrief.
 - `AGENTS.md` og `CLAUDE.md`: prosjektregler for KI-verktøyene.
 
-Bruk de konfigurerte `.docs/`-mappene til BMAD-output. Gruppe 10 bruker et annet mappenavn; dette repoets konfigurasjon peker til `.docs/`.
+Bruk de konfigurerte `.docs/`-mappene til BMAD-output.
 
 ## Konfigurasjon
 

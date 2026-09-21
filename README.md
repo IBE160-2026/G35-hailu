@@ -25,4 +25,4 @@ BMAD er konfigurert for Anteneh og prosjektet **Kitchen Prep**, med norsk som ar
 - [BMAD – oppsett og oppstart](docs/bmad-setup.md).
 - [Prosjektregler](AGENTS.md).
 
-BMAD-ferdighetene finnes for både Codex (`.agents/skills/`) og Claude Code (`.claude/skills/`). Dokumentstrukturen er inspirert av [G10-andreassen-lundberg](https://github.com/IBE160-2026/G10-andreassen-lundberg) og tilpasset gruppe 35.
+BMAD-ferdighetene finnes for både Codex (`.agents/skills/`) og Claude Code (`.claude/skills/`).
