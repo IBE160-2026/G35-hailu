@@ -1,40 +1,32 @@
 # G35 — Kitchen Prep
 
-Gruppeprosjekt i **IBE160 Programmering med KI** ved Høgskolen i Molde, høsten 2026 (15 studiepoeng).
+Gruppeprosjekt i **IBE160 Programmering med KI**, Høgskolen i Molde, høsten 2026 (15 studiepoeng).
+**Medlem:** Anteneh Hailu.
 
-Repoet inneholder gruppens applikasjon og dokumentasjon av utvikling, testing og kvalitetssikring med KI.
+## Formål og status
+Kitchen Prep planlegges som et regelbasert verktøy for kjøkkenansvarlig i en liten kantine med fem faste retter. Førsteversjonen skal ha manuell behovsberegning, prep-liste og bestillingsforslag som brukeren godkjenner som simulering. Ingen ordre sendes.
 
-## Medlemmer
+**Planleggingsfase:** Produktbriefen er revidert 22.10.2026 etter faglærers tilbakemelding. Denne revisjonen leverer dokumentasjon, ikke en kjørbar applikasjon. Installasjons-, oppstarts- og testkommandoer for appen foreligger derfor ikke ennå. Teknologistakken er foreslått, ikke ferdig implementert.
 
-- anteneh hailu
-
-## Prosjektoppsett
-
-- `_bmad/`: BMAD-rammeverk for planlegging, utvikling og kvalitetssikring.
-- `.agents/skills/`: BMAD-ferdigheter for Codex.
-- `AGENTS.md`: prosjektregler for Codex og andre KI-verktøy.
-- `.claude/skills/`: BMAD-ferdigheter for Claude Code.
-- `.docs/planning-artifacts/`: produktbeskrivelse og prosjektplanlegging.
-- `.docs/implementation-artifacts/`: dokumentasjon av implementering og testing.
-
-BMAD er konfigurert for Anteneh og prosjektet **Kitchen Prep**, med norsk som arbeids- og dokumentspråk. **Kitchen Prep er en autonom agent for daglig kjøkkenprep og varebestilling.** Agenten skal bruke meny, forventet behov og lagerstatus til å lage prep-planer og håndtere varebehov. Produktbriefen foreslår en første prototype med simulerte bestillinger.
-
-
-## Produktbrief og oppstart
-
-- [Produktbrief](productbrief.md): arbeidsutkast for Kitchen Prep; målgruppe og MVP er forslag.
-- [Produktbrief-mal](product-brief-template.md).
+## Dokumentasjon
+- [Produktbrief med avgrensning, dagscenario og krav K1–K9](productbrief.md).
+- [Faglærers opprinnelige tilbakemelding](tilbakemelding-product-brief.md).
 - [BMAD – oppsett og oppstart](docs/bmad-setup.md).
 - [Prosjektregler](AGENTS.md).
+- [Produktbrief-mal](product-brief-template.md) – referansemal, ikke prosjektets gjeldende brief.
 
-BMAD-ferdighetene finnes for både Codex (`.agents/skills/`) og Claude Code (`.claude/skills/`).
+Produktbriefen beholdes i roten slik AGENTS.md angir. Øvrig planlegging legges i `.docs/planning-artifacts/`, implementeringsdokumentasjon og testresultater i `.docs/implementation-artifacts/`, syntetiske eksempeldata i `data/examples/` og varig prosjektveiledning i `docs/`. Dette er også planlagt plassering for innhold som ennå ikke finnes.
 
-## Kom i gang med Codex
+## KI og prosess
+V1 planlegges uten språkmodell i appen. KI brukes til utviklingsstøtte. Beregninger skal følge kontrollerbare regler. Revisjonen av brief og README er gjort med ChatGPT/Codex på brukerens oppdrag. Brukerintervjuer, implementering og beståtte applikasjonstester er ikke gjennomført som del av denne revisjonen.
 
-Åpne dette repoet som prosjekt i Codex. BMAD-ferdighetene ligger i `.agents/skills/`. Start med:
+## Neste steg
+Lag PRD fra briefen, avklar foreslått teknologistakk, og lag arkitektur og små stories. Implementer beregningene først og test mot dagscenarioet. Dokumenter faktiske prompts, beslutninger og kontroller fortløpende. Legg inn presise kommandoer for installasjon, oppstart og testing når appen er implementert.
+
+BMAD er konfigurert i `_bmad/`, med ferdigheter i `.agents/skills/` og `.claude/skills/`. Forslag til neste oppgave:
 
 ```text
-Bruk bmad-help. Les productbrief.md og hjelp meg med neste steg for Kitchen Prep.
+Bruk bmad-help. Les AGENTS.md, productbrief.md og tilbakemelding-product-brief.md.
+Lag neste planleggingssteg fra den reviderte briefen. Behold v1-avgrensningen,
+skill forslag fra beslutninger og ikke påstå at tester eller brukerintervjuer er gjennomført.
 ```
-
-Se [oppstartsveiledningen](docs/bmad-setup.md) og [OpenAIs dokumentasjon om ferdigheter](https://developers.openai.com/codex/skills).
