@@ -1,6 +1,6 @@
 # Refleksjonsrapport - Programmering med KI
 
-> **Arbeidsutkast – ikke innleveringsklart.** Rapporten følger den utdelte malen. Den beskriver dokumentert planleggingsarbeid fram til 22.10.2026. Implementering, applikasjonstester og brukerundersøkelser er ikke dokumentert i dette arbeidet. Drøftinger og foreslåtte lærdommer er skrevet med KI-støtte og må vurderes av studenten. Felt merket **[Studenten fyller inn]** skal besvares med egne erfaringer. Rapporten skal senere utvides med konkrete hendelser fra utviklingen, ikke med konstruerte resultater.
+> **Arbeidsutkast – ikke innleveringsklart.** Rapporten følger den utdelte malen. Den beskriver dokumentert planleggingsarbeid fram til 22.10.2026. Implementering, applikasjonstester og brukerundersøkelser er ikke dokumentert i dette arbeidet. Drøftingene er skrevet med KI-støtte. Personlige avsnitt er bearbeidet fra Antenehs egne opplysninger om kjøkkenerfaring, arbeid med tall, nytte av KI og utfordringer med GitHub og KI-forslag. Resterende utfyllingsfelt gjelder opplysninger eller erfaringer som ennå ikke foreligger. Rapporten skal senere utvides med konkrete hendelser fra utviklingen, ikke med konstruerte resultater.
 
 ## 1. Gruppeinformasjon
 
@@ -16,6 +16,8 @@
 ## 2. Utviklingsprosessen
 
 ### 2.1 Oversikt over prosjektet
+
+Jeg valgte Kitchen Prep fordi jeg har jobbet på kjøkken og kjenner arbeidsområdet fra praksis. Kjøkkenarbeid innebærer både praktiske oppgaver og mye arbeid med tall og planlegging. Derfor ønsket jeg å undersøke hvordan et digitalt verktøy kan støtte sammenhengen mellom porsjoner, råvarer og organisering av arbeidet.
 
 Kitchen Prep er et planlagt verktøy for kjøkkenansvarlig i en liten kantine. Hovedmålet er å gjøre det enklere å lage en dagsplan ved å kombinere planlagte porsjoner, oppskrifter og registrert lager. Førsteversjonen er avgrenset til fem faste retter og én lokal bruker. Brukeren skal starte beregningen manuelt og få oversikt over ingrediensbehov, mangler, prep-oppgaver og bestillingsforslag. Godkjenning av et forslag er en simulering og skal ikke sende en faktisk bestilling.
 
@@ -33,7 +35,7 @@ Arbeidsformen viser både en mulighet og en begrensning. KI kan raskt sammenhold
 
 BMAD finnes i prosjektoppsettet. Det er likevel ikke dokumentert her at hele BMAD-flyten er gjennomført. Neste planlagte steg er kravspesifikasjon, arkitektur og avgrensede utviklingsoppgaver.
 
-**[Studenten fyller inn: Hvordan arbeidet du før denne økten? Hvilke verktøy brukte du selv, og hvordan vurderte du forslagene før de ble lagret?]**
+Jeg har brukt kjøkkenerfaringen min som utgangspunkt for ideen. KI har hjulpet meg med å tenke utenfor det jeg allerede kjenner, og gjort arbeidet med å utvikle ideen lettere. Samtidig har både GitHub og forståelsen av enkelte KI-forslag vært utfordrende. Jeg trenger derfor en arbeidsmåte der endringer forklares konkret og kan knyttes til en oppgave fra kjøkkenet. Opplysninger om tidligere verktøybruk utover det som er dokumentert her, må eventuelt legges til senere.
 
 ### 2.3 Teknologi og verktøy
 
@@ -117,9 +119,11 @@ Det er ikke dokumentert samarbeid mellom flere gruppemedlemmer. Rapporten bør d
 
 Faglærerens tilbakemelding gir et eksternt perspektiv på omfang og gjennomførbarhet. KI kan også foreslå alternative løsninger, men er ikke en uavhengig bekreftelse på at et forslag er riktig. Studenten trenger egne kontroller og etter hvert faktiske brukerobservasjoner.
 
-**[Studenten fyller inn: Hvordan fungerte det å jobbe alene, og fikk du hjelp eller tilbakemeldinger fra andre?]**
+For meg har utfordringene særlig handlet om de digitale verktøyene og om å forstå forslagene fra KI. Jeg kjenner kjøkkenarbeidet, men det er ikke alltid enkelt å oversette behovene til en teknisk beskrivelse. Faglærerens skriftlige tilbakemelding og KI-assistansen har vært støtte i det dokumenterte planleggingsarbeidet. Det er ikke beskrevet ytterligere samarbeid eller tilbakemeldinger fra andre personer her.
 
 ### 3.3 KI-spesifikke utfordringer
+
+Jeg har opplevd at enkelte forslag fra KI er vanskelige å forstå. Når et forslag inneholder flere tekniske begreper eller funksjoner samtidig, blir det krevende å vurdere hvordan det passer til ideen min. Derfor er det viktig for mitt videre arbeid at forslag forklares med enkle ord og konkrete eksempler. Jeg må kunne se hvilken oppgave på kjøkkenet forslaget skal løse.
 
 En sentral risiko er at KI fyller inn uavklarte deler med plausible detaljer. I dette prosjektet gjelder det blant annet kjøkkentype, meny, teknologistakk og antatt nytte. Revidert brief markerer derfor demodata som syntetiske og teknologistakken som foreslått.
 
@@ -133,6 +137,8 @@ En annen risiko er at velformulert dokumentasjon gir inntrykk av større framdri
 
 **Effektivitet og produktivitet:**
 
+Jeg opplever at KI har gjort arbeidet lettere og hjulpet meg med å tenke utenfor mine egne første ideer. Det har vært nyttig å kunne ta utgangspunkt i et område jeg kjenner, kjøkkenarbeid, og få hjelp til å strukturere en mulig digital løsning. Dette er min opplevelse av støtten, ikke en målt tidsbesparelse.
+
 KI-assistenten sammenholdt lærerens kommentarer med produktbriefen og oppdaterte flere deler av dokumentasjonen i samme arbeidsøkt. Den konkrete nytten var en mer samlet revisjon: målgruppe, omfang, beregningsregler og README ble tilpasset samme retning.
 
 Tidsbruk er ikke målt. Det er derfor ikke grunnlag for å oppgi en prosentvis effektivitetsgevinst. Rask produksjon av tekst må dessuten vurderes sammen med tiden studenten trenger for å forstå og kontrollere innholdet.
@@ -141,7 +147,7 @@ Tidsbruk er ikke målt. Det er derfor ikke grunnlag for å oppgi en prosentvis e
 
 Dagscenarioet gir et konkret grunnlag for å diskutere forskjellen mellom behov og innkjøp. Kravene til enheter viser også at programmet må forstå hva tall representerer. To tall kan ikke summeres bare fordi begge er numeriske.
 
-Dette er muligheter for læring, ikke dokumentasjon av studentens personlige læringsutbytte. Studenten bør kunne forklare beregningen med egne ord og vise hvordan en endring i lager eller porsjoner påvirker resultatet.
+For meg gjør koblingen til kjøkkenarbeid tallene relevante. Et konkret eksempel er at 40 porsjoner med 150 gram kylling krever 6000 gram. Hvis lageret inneholder 3750 gram, mangler 2250 gram. Dette er et eksempel fra produktbriefen som jeg kan bruke som grunnlag for videre forståelse og kontroll. Det viser hvordan praktiske behov kan beskrives som regler. At eksempelet står i rapporten, dokumenterer likevel ikke at jeg har testet en ferdig beregningsmodul.
 
 **Kvalitet på koden:**
 
@@ -159,9 +165,11 @@ Den nye revisjonen inneholder også valg studenten må gjennomgå. Fem retter er
 
 Når en assistent både foreslår og lagrer endringer, kan studenten bli en passiv godkjenner. Risikoen reduseres ved å forklare sentrale regler selv og sammenligne forslag med konkrete krav. Studenten bør for eksempel kunne forklare hvorfor en godkjenning ikke betyr at lageret øker.
 
-**[Studenten fyller inn: Hvilke deler forsto du selv, og hvilke måtte du få forklart? Var det forslag du var uenig i?]**
+Mitt utgangspunkt er erfaring med kjøkkenarbeid, tall og hvordan arbeidet organiseres. Både GitHub og noen av KI-forslagene har vært vanskelige. Det betyr at jeg ikke kan vurdere alle tekniske forslag bare fordi de virker godt forklart i teksten. Jeg trenger å knytte dem til konkrete eksempler og få forklart hva de innebærer. Jeg har ikke oppgitt et bestemt forslag jeg selv avviste, og rapporten skal derfor ikke framstille en slik hendelse som gjennomført.
 
 **Kreativitet og problemløsning:**
+
+KI har hjulpet meg med å tenke utenfor de første ideene mine. Dette har gjort det lettere å se muligheter for hvordan kjøkkenerfaring kan brukes i et digitalt prosjekt. Samtidig må nye muligheter vurderes mot hva jeg kan forstå, kontrollere og gjennomføre i oppgaven.
 
 Avgrensningen kan oppleves som mindre spennende enn en autonom agent. Samtidig kan en liten løsning gjøre det lettere å undersøke brukerbehov før nye funksjoner legges til. KI bør brukes til å utforske alternativer, mens valget begrunnes ut fra oppgaven og tilgjengelig tid.
 
@@ -177,7 +185,7 @@ Dette er en begrunnet sammenligning, ikke et eksperiment. Det er ikke gjennomfø
 
 På dette stadiet har KI bidratt til mer konkret planlegging og tydeligere dokumentasjon av endringer. Den samlede påvirkningen på appens funksjonalitet og kodekvalitet er foreløpig uavklart.
 
-En foreløpig lærdom er at verdien av KI avhenger av tydelige rammer og etterprøvbare kontroller. Faglærerens tilbakemelding ga retning, mens scenarioet gir et kontrollgrunnlag for videre utvikling. Studentens egen vurdering av nytte og læring må legges til før rapporten ferdigstilles.
+En foreløpig lærdom er at verdien av KI avhenger av tydelige rammer og etterprøvbare kontroller. Faglærerens tilbakemelding ga retning, mens scenarioet gir et kontrollgrunnlag for videre utvikling. Min foreløpige vurdering er at KI har vært nyttig fordi det har gjort arbeidet lettere og gitt meg flere perspektiver. Samtidig viser utfordringene med GitHub og KI-forslag at jeg fortsatt trenger å utvikle den tekniske forståelsen min. Vurderingen gjelder planleggingsarbeidet så langt.
 
 ---
 
@@ -205,7 +213,7 @@ KI kan gi forklaringer og eksempler som støtter læring. Samtidig kan studenten
 
 En praktisk balanse er å formulere forventet resultat før KI får implementere. Studenten kan for eksempel beregne risbehovet selv, skrive ned forventningen og deretter undersøke om programmet gir samme svar. Da blir KI et hjelpemiddel i arbeidet, mens kontrollen forblir faglig forankret.
 
-**[Studenten fyller inn: Beskriv én konkret situasjon der KI hjalp deg å forstå noe, og én der du måtte arbeide videre selv.]**
+I den dokumenterte økten ba jeg KI bruke lærerens tilbakemelding til å rette produktbriefen. Resultatet var en tydeligere beskrivelse av én målgruppe og et mindre omfang. Dette er et konkret eksempel på hvordan KI hjalp meg med å bearbeide prosjektideen. Mine opplysninger om utfordringer gjelder GitHub og forståelsen av enkelte forslag generelt; en bestemt feilsøkingssituasjon må dokumenteres senere dersom den skal brukes som eksempel.
 
 ### 5.4 Arbeidsmarkedet
 
@@ -213,7 +221,7 @@ KI kan endre hvilke oppgaver utviklere bruker tid på. Dersom utkast til kode og
 
 Kitchen Prep illustrerer betydningen av domeneforståelse. Det er nødvendig å skille mellom planlagt forbruk, faktisk lager og foreslått bestilling. En teknisk løsning kan være ryddig skrevet og likevel støtte en dårlig arbeidsprosess.
 
-**[Studenten fyller inn: Hvordan passer kombinasjonen av økonomi, kjøkkenerfaring og IT med din egen videre karriereretning?]**
+Kitchen Prep gir meg mulighet til å knytte kjøkkenerfaringen min til det jeg arbeider med i IT-studiet. Jeg er opptatt av tall og hvordan arbeidet kan organiseres. Prosjektet er derfor en anledning til å undersøke hvordan teknologi kan støtte praktiske arbeidsoppgaver. Det er foreløpig ikke grunnlag for å beskrive dette som en ferdig forretningsidé eller en bestemt karrierebeslutning.
 
 ### 5.5 Datasikkerhet og personvern
 
@@ -273,7 +281,7 @@ Teknologivalg bør begrunnes etter at kjerneflyten er avklart. Det er foreløpig
 
 Arbeidet med KI bør deles opp slik at studenten vurderer hvert hovedvalg. Det bør være tydelig hvilke forslag som ble godtatt og hvorfor. Dette er en anbefalt forbedring av arbeidsformen, ikke en påstand om at tidligere kontroll ikke fant sted.
 
-**[Studenten fyller inn: Hva ville du selv konkret gjort annerledes, og hvorfor?]**
+Med utgangspunkt i utfordringene jeg har beskrevet, vil jeg i videre arbeid be om enklere forklaringer og mindre oppgaver om gangen. For GitHub vil jeg prioritere å forstå hva som er endret og hvor endringen er lagret. For KI-forslag vil jeg prioritere å forstå hva forslaget skal løse før jeg går videre. Dette er planlagte forbedringer i arbeidsmåten min.
 
 ### 7.3 Anbefalinger
 
@@ -287,17 +295,15 @@ Bruk tilbakemeldinger til å endre planen, og dokumenter endringen. Unngå å le
 
 **Anteneh Hailu:**
 
-**[Denne delen må skrives eller bekreftes av Anteneh. KI kan hjelpe med språket etter at egne erfaringer er gitt.]**
+Jeg valgte Kitchen Prep fordi jeg har jobbet på kjøkken og kjenner dette arbeidsområdet. Jeg ønsket å bruke erfaringen min til et prosjekt med en praktisk hensikt. Kjøkkenarbeid handler også om tall: hvor mange porsjoner som skal lages, hvor mye råvarer som trengs, og hvordan oppgavene skal organiseres. Dette gjorde temaet relevant for meg.
 
-Svar med konkrete hendelser:
-- Hvorfor valgte du Kitchen Prep?
-- Hva forsto du om programmering før prosjektet, og hva forstår du bedre nå?
-- Hvordan opplevde du faglærerens tilbakemelding og reduksjonen av omfang?
-- Hvilket KI-forslag vurderte du kritisk, og hva gjorde du?
-- Hvilke beregninger eller deler av koden kan du forklare selv?
-- Hva må du fortsatt lære?
+KI har hjulpet meg med å tenke utenfor mine egne første ideer. Det har gjort det lettere å utvikle ideen videre og få en mer strukturert beskrivelse av hva løsningen kan gjøre. Jeg opplever at KI gjør det enklere å komme videre når jeg har en praktisk idé, men trenger hjelp til å beskrive den som et digitalt prosjekt.
 
-Det skal ikke legges inn et oppdiktet personlig læringsutbytte for å gjøre teksten mer fullstendig.
+Samtidig har både GitHub og enkelte forslag fra KI vært utfordrende. Jeg kjenner kjøkkenarbeidet bedre enn de tekniske verktøyene. Derfor er det ikke nok for meg å få et ferdig forslag; jeg trenger også å forstå hvordan det henger sammen med det jeg ønsker å lage. En god forklaring bør bruke konkrete eksempler fra kjøkkenet og vise hva en endring betyr.
+
+Dagscenarioet i produktbriefen er et slikt eksempel. Det knytter porsjoner til mengder, lager og bestillingspakker. Denne typen eksempler er relevant for meg fordi den gjør sammenhengen mellom tall og praktisk arbeid synlig. Framover vil jeg bruke slike eksempler til å kontrollere om løsningen følger de reglene vi har beskrevet.
+
+Jeg ønsker å bli tryggere på å bruke GitHub og på å vurdere KI-forslag. Målet mitt er å forstå mer av arbeidet, slik at jeg kan ta bedre valg underveis. KI har vært en nyttig støtte så langt, men jeg må fortsatt utvikle min egen tekniske forståelse. Denne refleksjonen gjelder planleggingsfasen. Erfaringer med kode, feilretting og tester må legges til når det arbeidet faktisk er gjennomført.
 
 ---
 
@@ -321,6 +327,10 @@ Korte brukerbeskjeder gjengis ordrett:
 
 Dette er utdrag fra den synlige økten, ikke en komplett KI-logg for prosjektet. De er tatt med for å vise oppdraget og oppfølgingen. Tidligere prompts må legges til fra faktiske kilder dersom de finnes.
 
+### Grunnlag for personlig refleksjon
+
+Anteneh opplyste i samtalen 22.10.2026 at han valgte temaet på grunn av kjøkkenerfaring, at tall og organisering av arbeidet er relevant, at KI har hjulpet ham med å tenke utenfor og gjort arbeidet lettere, og at både GitHub og forståelsen av KI-forslag har vært utfordrende. Avsnittene om egne erfaringer er språklig bearbeidet og utdypet fra disse svarene med KI-støtte. Konkrete beregninger er hentet fra produktbriefens syntetiske scenario; de er ikke nye påstander om gjennomført praktisk arbeid.
+
 ### Kilder og avgrensninger
 
 Strukturen følger den utdelte reflection-report-template.md. Sensorveiledning IBE160 – Del 1 applikasjon og prosess, høst 2026, er brukt som bakgrunn for koblingen mellom prosess, testing og dokumentasjon. Detaljerte vurderingskriterier for del 2 er ikke levert her; del 1-veiledningen erstatter ikke disse.
@@ -329,7 +339,7 @@ Ingen skjermbilder av en ferdig app eller rapporter om gjennomførte applikasjon
 
 ### Før innlevering
 
-- Fyll inn studentopplysninger og personlig refleksjon.
+- Fyll inn student-ID eller skole-e-post, og les gjennom den personlige refleksjonen som er bearbeidet fra egne svar.
 - Utvid utviklingsfasen med det som faktisk gjennomføres.
 - Legg til reelle tekniske utfordringer og dokumenterte kontroller.
 - Gjennomgå KI-formuleringene og sørg for at refleksjonen uttrykker egne vurderinger.
@@ -338,6 +348,6 @@ Ingen skjermbilder av en ferdig app eller rapporter om gjennomførte applikasjon
 
 ---
 
-**Ordantall:** 3539 ord i dette arbeidsutkastet, inkludert tabeller, utfyllingsfelt og vedlegg.
+**Ordantall:** 4385 ord i dette arbeidsutkastet, inkludert tabeller, utfyllingsfelt og vedlegg.
 
 **Forventet lengde i malen:** 3000–5000 ord, avhengig av gruppestørrelse og prosjektets kompleksitet. Endelig ordantall må kontrolleres etter at egne erfaringer og faktiske utviklingsresultater er innarbeidet.
